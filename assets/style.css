@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+background: url(../assets/backgriound.webp);
+background-size: 121%;
+background-position: 0px 0px;
+color: #ff7900;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Josefin Sans';
+}
+div.register{
+    font-style: italic;
+    font-family: 'Josefin Sans';
+    margin: -380px 20px;
+   
+}
+form#register{
+    margin: 40px;
+
+}
+label{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-style: italic;
+}
+input#manufacturer{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.btn{
+    display: block;
+    margin: -1px auto;
+    width: fit-content;
+    border: 1px solid #ff7900;
+    padding: 12px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background0.5s;
+    font-family: 'Josefin Sans';
+}
+.btn:hover{
+    background: #ff7900;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 video{
+    width: 30%;
+    border-radius: 15px;
+    margin-top: 20%;
+    margin-left: 65%;
+}
+input#model{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#year{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+

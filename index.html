@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Car Decals and Window Tint Info</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
+</head>
+<div class="about-col-1">
+  <video autoplay controls loop muted>
+      <source src="./assets/video7.mp4" type="video/mp4">
+  </video>
+</div>
+<body> 
+
+    <div class="main">
+        <div class="register">
+        <h2>Please Fill Out the Information</h2>
+     
+        <form action="https://formspree.io/f/mpzeqwkk" method="POST" >
+          <input type="hidden" name="_subject" value="New Car Decals & Window Tint Submission!">
+             
+          <label> Phone Number : </label>
+          <br>
+          <input type="text" id="number" name="Phone Number" placehoder="Enter your Phone Number" required >
+          <br><br>
+
+                <label> Car Manufacturer : </label>
+                <br>
+                <input type="text" id="manufacturer" name="Car Manufacturer" placehoder="Enter your Company Name" required >
+                <br><br>
+
+                <label> Car Model : </label>
+                <br>
+                <input type="text" id="model" name="Car Model" placehoder="Enter your Company USDOT Number here" required >
+                <br><br>
+
+                <label> Car Year : </label>
+                <br>
+                <input type="text" id="year" name="Car Year" placehoder="Enter your Company MC Number here" required >
+                <br><br>
+
+               
+                <label for="Vehicle"> Bringing the vehicle in for : </label>
+                <br>
+                <select name="Vehicle" id="worktype">
+                  <option value="">PLEASE SELECT ONE:)</option>
+                  <option value="Window Tint Only">Window Tint Only</option>
+                  <option value="Car Decals Only">Car Decals Only</option>
+                  <option value="Both">Both</option>
+                </select>
+                <br><br>
+             
+                <button type="submit" class="btn">SUBMIT</button>
+              </form>
+              </div>
+            </div> 
+        </div>
+    
+
+ </body>
+</html>
